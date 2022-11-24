@@ -1,0 +1,18 @@
+#aboutmemain{
+    width: 90%;
+    height:auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+}
+#aboutmemain>div:nth-child(1)>img{
+    width: 100%;
+}
+#aboutmemain>div:nth-child(2)>h4{
+    margin-top: 5rem;
+    text-align: left;
+    margin-left: 2rem;
+    font-weight: 22px;
+    line-height: 2rem;
+    letter-spacing: 0.02cm;
+}

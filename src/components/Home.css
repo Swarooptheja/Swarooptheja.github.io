@@ -1,0 +1,24 @@
+#homepagecontent{
+    width: 90%;
+    height: 150vh;
+    margin: auto;
+    color: white;
+}
+#homepageimg{
+   width: 50%;
+  margin-top: 9rem;
+  border-radius: 10rem;
+  
+}
+#homepagemain{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    /* margin-top: 2rem; */
+    grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
+}
+#homepagemaintext{
+    margin-top: 13rem;
+    color: white;
+}

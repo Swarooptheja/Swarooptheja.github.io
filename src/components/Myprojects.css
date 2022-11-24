@@ -1,0 +1,56 @@
+#myprojectsmain{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px,3fr));
+}
+#myprojectsmain>div{
+    border-radius: 2rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+   
+
+}
+#myprojectsmain>div:hover{
+    width: 102%;
+
+}
+#myprojectsmain>div>img{
+    width: 100%;
+    border-radius: 2rem;
+}
+#myprojectmain>div>div>button{
+  background-color: white;
+}
+.myprojectgitbtn{
+    background-color: blue;
+    margin-top: 1rem;
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+}
+.myprojectgitbtn:hover{
+    background-color: red;
+   color: white;
+   cursor: pointer;
+
+}
+.myprojectnetlifybtn{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    background-color: blue;
+    border-radius: 1.5rem;
+    border:none;
+    color: white;
+}
+.myprojectnetlifybtn:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,41 @@
+
+#navbarmain{
+    width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+  position: fixed;
+  backdrop-filter: blur(20px);
+  /* background-color: teal; */
+  /* margin-top: 2rem; */
+  background-color: #404040;
+  z-index: 3;
+
+}
+
+
+#downloadbtn{
+    background-color: blue;
+    color: white;
+    border-radius:1rem;
+
+}
+#navbarmain>div:nth-child(1){
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btnnavbar{
+    color: white;
+}
+#navbarmain>div:nth-child(2){
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+  
+
+
+
+

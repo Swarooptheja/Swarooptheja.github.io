@@ -1,0 +1,32 @@
+#myskillsmain{
+    width: 100%;
+    height: auto;
+}
+#myskillsbox{
+    width: 70%;
+    height: auto;
+    margin: auto;
+    /* border: 1px solid white; */
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px,4fr));
+}
+#myskillsbox>div{
+ 
+    color: black;
+    /* cursor: pointer; */
+    background-color: white;
+    border-radius: 2rem;
+}
+#myskillsbox>div:hover{
+    cursor: pointer;
+    width: 102%;
+
+}
+#myskillsbox>div>img{
+    margin-top: 2rem;
+    width: 50%;
+}
+#myskillsheading{
+    color: white;
+}
