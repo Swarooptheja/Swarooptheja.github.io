@@ -3,7 +3,7 @@ import './Aboutme.css'
 function Aboutme(props) {
     return (
         <div id='aboutme' >
-            <h1>About Me !</h1>
+            <h1 id='headingaboutme'>About Me !</h1>
             <div id='aboutmemain'>
 
               <div>

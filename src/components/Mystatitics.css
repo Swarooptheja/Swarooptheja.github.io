@@ -6,6 +6,7 @@
     grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
 }
 #mystatisticsmain>div{
+    border-radius: 2rem;
     /* border: 1px solid red; */
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
@@ -16,4 +17,12 @@
 #mystatisticsmain>div:hover{
 width: 102%;
 cursor: pointer;
+}
+
+#statistics{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+#headingstatistics{
+    margin-bottom: 4rem;
 }

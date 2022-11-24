@@ -22,7 +22,7 @@ function Getintouch(props) {
           };
     return (
         <div id='contact'>
-            <h1>Let's Get In Touch</h1>
+            <h1 id='headinggetintouch'>Let's Get In Touch</h1>
 
             <div id='getintouchmain'style={{ backgroundImage: 
             "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV82ZC57pGLPYoVDIpMVGWZHcMosHYvFyQr27yBEi7Kr5UMwmsg03_844uDsHKteLjKc&usqp=zzzzzzzzz')",

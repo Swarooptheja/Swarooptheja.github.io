@@ -30,3 +30,10 @@
 #myskillsheading{
     color: white;
 }
+#myskillsmain{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+#myskillsheading{
+    margin-bottom: 4rem;
+}

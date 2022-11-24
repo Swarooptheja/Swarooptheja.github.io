@@ -3,7 +3,7 @@ import './Mystatitics.css'
 function Mystatitics(props) {
     return (
         <div id='statistics'>
-            <h1>My Statistics</h1>
+            <h1 id='headingstatistics' >My Statistics</h1>
 
             <div id='mystatisticsmain'>
                 <div>

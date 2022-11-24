@@ -3,7 +3,7 @@ import './Myprojects.css'
 function Myprojects(props) {
     return (
         <div id='myprojects'>
-            <h1>My Projects!</h1>
+            <h1 id='headingprojects'>My Projects!</h1>
 
             <div id='myprojectsmain'>
                 <div>
