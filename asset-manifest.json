@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.aa2485d2.css",
+    "main.js": "/static/js/main.fc315a81.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Thejaswaroopimage.jpg": "/static/media/Thejaswaroopimage.e73248f30a04d7398a14.jpg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.aa2485d2.css.map": "/static/css/main.aa2485d2.css.map",
+    "main.fc315a81.js.map": "/static/js/main.fc315a81.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa2485d2.css",
+    "static/js/main.fc315a81.js"
+  ]
+}
