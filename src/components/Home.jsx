@@ -2,13 +2,15 @@ import React from 'react';
 import "./Home.css"
 import Me from "../Images/Thejaswaroopimage.jpg"
 import Typical from "react-typical"
+import Navbar from './Navbar';
 function Home(props) {
     return (
-
-        <div id='homepagemain'style={{ backgroundImage: 
+      <>
+      <Navbar/>
+        {/* <div id='homepagemain'style={{ backgroundImage: 
             "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV82ZC57pGLPYoVDIpMVGWZHcMosHYvFyQr27yBEi7Kr5UMwmsg03_844uDsHKteLjKc&usqp=zzzzzzzzz')",
-                  }}   >
-
+                  }}   > */}
+  <div id='homepagemain'>
         <div id='homepagecontent'>
             <img id='homepageimg' src={Me} alt="" />
             
@@ -34,6 +36,7 @@ function Home(props) {
             
         </div>
         </div>
+      </>
     );
 }
 

@@ -129,7 +129,7 @@ export default function Navbar() {
 
   return (
     <div id='navbarmain'>
-      <Box bg={useColorModeValue('gray.550', 'gray.900')} px={4}>
+      <Box bg={useColorModeValue('gray.600', 'gray.900')}  px={4}>
         <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
           <IconButton
             size={'lg'}
@@ -145,9 +145,7 @@ export default function Navbar() {
               as={'nav'}
               spacing={4}
               display={{ base: 'none', md: 'flex' }}>
-              {/* {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))} */}
+             
              <button className='btng'>
               <a id='a' href="#">Home</a>
              </button>
@@ -232,7 +230,7 @@ export default function Navbar() {
         ) : null}
       </Box>
 
-      <Box p={4}></Box>
+      
     </div>
   );
 }

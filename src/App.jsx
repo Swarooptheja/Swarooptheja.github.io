@@ -12,9 +12,11 @@ import Getintouch from './components/Getintouch';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
+
+
       <Home/>
-       {/* <Allroutes/> */}
+      
        <Aboutme/>
        <Myskills/>
        <Myprojects/>

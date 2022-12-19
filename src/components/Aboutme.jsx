@@ -1,6 +1,7 @@
 import React from 'react';
 import './Aboutme.css';
 import {AiFillLinkedin,AiFillGithub} from "react-icons/ai"
+import {FaHandPointUp} from "react-icons/fa"
 
 function Aboutme(props) {
     return (
@@ -36,6 +37,9 @@ in remote collaboration.
                     <AiFillGithub size={50}/>
                     </a>
                   </div>
+                </div>
+                <div id='tag'>
+                    <h3>Let's Get In Touch  <FaHandPointUp color='yellow' size={40}/></h3> 
                 </div>
               </div>
 

@@ -16,7 +16,8 @@
     height: auto;
     margin: auto;
     display: grid;
-    /* margin-top: 2rem; */
+    /* margin-top: 5rem; */
+    background-color: black;
     grid-template-columns: repeat(auto-fit,minmax(300px,2fr));
 }
 #homepagemaintext{
