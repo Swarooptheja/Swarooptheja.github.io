@@ -1,15 +1,9 @@
 
 #navbarmain{
     width: 100%;
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
+   
   position: fixed;
-  backdrop-filter: blur(20px);
-  /* background-color: teal; */
-  /* margin-top: 2rem; */
-  background-color: #404040;
-  z-index: 3;
+ background-color:#505B5B 
 
 }
 
@@ -32,6 +26,45 @@
     cursor: pointer;
     margin-top: 1rem;
 }
+
+.btng{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 1rem;
+
+
+
+
+}
+.btng:hover{
+    cursor: pointer;
+    background-color: red;
+}
+#a{
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+}
+.btnn{
+    width: 30%;
+    /* margin: auto; */
+    /* border: 1px solid red;
+     */
+     background-color: blue;
+     border: none;
+     padding: 10px 20px 10px 20px;
+     border-radius: 0.5rem;
+}
+
+.btnn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+
+
 
 
   

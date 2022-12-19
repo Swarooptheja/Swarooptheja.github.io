@@ -3,8 +3,11 @@
     height:auto;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(auto-fit, minmax(300px,3fr));
 }
+
+
 #aboutmemain>div:nth-child(1)>img{
     width: 100%;
 }
@@ -15,7 +18,20 @@
     font-weight: 22px;
     line-height: 2rem;
     letter-spacing: 0.02cm;
+    font-style: italic;
 }
 #headingaboutme{
     margin-bottom: 4rem;
+}
+
+#icons{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    /* border: 1px solid red; */
+}
+#icons>div{
+    /* border: 1px solid green; */
+    margin-top: 2rem;
 }

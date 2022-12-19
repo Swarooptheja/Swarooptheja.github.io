@@ -8,15 +8,16 @@
     grid-template-columns: repeat(auto-fit, minmax(300px,3fr));
 }
 #myprojectsmain>div{
-    border-radius: 2rem;
+    border-radius:1rem;
+    padding: 10px 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
    
 
 }
-#myprojectsmain>div:hover{
+/* #myprojectsmain>div:hover{
     width: 102%;
 
-}
+} */
 #myprojectsmain>div>img{
     width: 100%;
     border-radius: 2rem;
@@ -27,7 +28,7 @@
 .myprojectgitbtn{
     background-color: blue;
     margin-top: 1rem;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     border: none;
     color: white;
 }
@@ -41,7 +42,7 @@
     margin-left: 1rem;
     margin-top: 1rem;
     background-color: blue;
-    border-radius: 1.5rem;
+    border-radius: 0.5rem;
     border:none;
     color: white;
 }
@@ -57,3 +58,56 @@
 #headingprojects{
     margin-bottom: 4rem;
 }
+
+.discription{
+    text-align: left;
+    font-style: italic;
+    /* color: green; */
+}
+
+.title{
+    text-align: center;
+}
+#techstack{
+    
+    text-align: left;
+    line-height: 1px;
+    color: green;
+    
+}
+.discription::first-line{
+    text-align: center;
+    /* color: red;
+    text-align-last: center; */
+}
+
+#skills{
+    text-align: left;
+    font-style: italic;
+    width: 100%;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
+#tc{
+    width: 100%;
+    /* border: 1px solid red; */
+   
+}
+#tc>button{
+    padding: 10px;
+    border-radius: 10rem;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    background-color:rgb(194, 35, 194) ;
+    color: white;
+    margin-left: 0.3rem;
+    margin-top: 0.4rem;
+
+}
+
+#tc>button:hover{
+    background-color: red;
+    /* cursor: pointer; */
+}
+  

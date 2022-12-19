@@ -1,5 +1,7 @@
 import React from 'react';
-import './Aboutme.css'
+import './Aboutme.css';
+import {AiFillLinkedin,AiFillGithub} from "react-icons/ai"
+
 function Aboutme(props) {
     return (
         <div id='aboutme' >
@@ -22,7 +24,23 @@ Problems and development of projects
 in remote collaboration.
                 </h4>
 
+                <div>
+                <div id='icons'>
+                  <div>
+                    <a href="https://www.linkedin.com/in/theja-swaroop-10a1a9197/">
+                    <AiFillLinkedin size={50}  />
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://github.com/Swarooptheja">
+                    <AiFillGithub size={50}/>
+                    </a>
+                  </div>
+                </div>
               </div>
+
+              </div>
+             
             </div>
 
         </div>

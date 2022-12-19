@@ -1,5 +1,7 @@
 import React from 'react';
+import GitCalender from './GitCalender';
 import './Mystatitics.css'
+// import GitCalender from 'c:/users/lenovo/downloads/gitcalender';
 function Mystatitics(props) {
     return (
         <div id='statistics'>
@@ -13,6 +15,9 @@ function Mystatitics(props) {
                 <div>
                     <img src="https://camo.githubusercontent.com/4ed8cdcdaa9a1dad9a33cfd34e53184472590fc8425c1311536d39c9d999b1db/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67732f3f757365726e616d653d737761726f6f707468656a61266c61796f75743d636f6d70616374" alt="" />
                 </div>
+            </div>
+            <div>
+                <GitCalender/>
             </div>
         </div>
     );
