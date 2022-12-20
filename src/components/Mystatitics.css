@@ -4,6 +4,7 @@
     display:grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(300px,2fr));
+    margin-bottom: 5rem;
 }
 #mystatisticsmain>div{
     border-radius: 2rem;

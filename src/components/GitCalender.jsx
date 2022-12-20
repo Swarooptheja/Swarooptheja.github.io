@@ -22,9 +22,11 @@ const GitCalender = () => {
     <Box
       style={{ marginTop: "-10px" }}
       pb="50px"
-      
+      // my={'5rem'}
       fontFamily="sans-serif"
-      bgGradient="linear(to-r, #0f2027, #203a43, #2c5364)"
+
+      bgGradient="linear(to-r, #0f2040, #203a60, #2c5380)"
+      // bg={'teal'}
     >
     <Flex
         marginBottom={"20px"}
@@ -35,8 +37,8 @@ const GitCalender = () => {
         color="white"
         fontFamily={"Franklin Gothic Medium"}
       >
-        <Box  style={{color:"white"}} marginBottom={"20px"} borderBottom="3px solid #DD6B20" py="5px" textShadow='1px 1px red'>
-          Github Statistics
+        <Box  style={{color:"white"}} marginBottom={"20px"} borderBottom="3px solid green" py="5px" textShadow='1px 1px green'>
+          Github Calendar
         </Box>
       </Flex>
       <Grid templateColumns="repeat(2, 1fr)" w="70%" m="auto" gap={2}>
@@ -45,21 +47,21 @@ const GitCalender = () => {
             <GitHubCalendar username="Swarooptheja" transformData={calender} />
           </Flex>
         </GridItem>
-        <GridItem colSpan={["2", "2", "1", "1"]}>
+        {/* <GridItem colSpan={["2", "2", "1", "1"]}>
           <img
             height="200px"
             color="black"
             src="https://github-readme-stats.vercel.app/api?username=Swarooptheja&show_icons=true&theme=swift"
             alt="Darsh Star"
           />
-        </GridItem>
-        <GridItem colSpan={["2", "2", "1", "1"]}>
+        </GridItem> */}
+        {/* <GridItem colSpan={["2", "2", "1", "1"]}>
           <img
             height="200px"
             src="https://github-readme-streak-stats.herokuapp.com/?user=Swarooptheja&theme=swift"
             alt="Darshan Star"
           />
-        </GridItem>
+        </GridItem> */}
       </Grid>
     </Box>
   );

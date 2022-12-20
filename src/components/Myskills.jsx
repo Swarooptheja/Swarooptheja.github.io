@@ -5,7 +5,7 @@ function Myskills(props) {
         <div id='myskillsmain'  style={{ backgroundImage: 
             "url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpV82ZC57pGLPYoVDIpMVGWZHcMosHYvFyQr27yBEi7Kr5UMwmsg03_844uDsHKteLjKc&usqp=zzzzzzzzz')",
                   }} >
-            <h1 id='myskillsheading'>My Skills!</h1>
+            <h1 id='myskillsheading'>My Skills !</h1>
 
             <div id='myskillsbox'>
                 <div>

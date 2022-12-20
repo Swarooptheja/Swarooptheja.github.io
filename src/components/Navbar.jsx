@@ -153,13 +153,13 @@ export default function Navbar() {
               <a id='a' href="#aboutme">About Me</a>
              </button>
              <button className='btng'>
-              <a id='a' href="#myskillsmain">My Skills</a>
+              <a id='a' href="#myskillsmain">Skills</a>
              </button>
              <button className='btng'>
-              <a id='a' href="#myprojects">My Projects</a>
+              <a id='a' href="#myprojects">Projects</a>
              </button>
              <button className='btng'>
-              <a id='a' href="#mystatisticsmain">My Statistics</a>
+              <a id='a' href="#mystatisticsmain">Statistics</a>
              </button>
              <button className='btng'>
               <a id='a' href="#contact">Contact</a>
@@ -169,7 +169,9 @@ export default function Navbar() {
           <Flex alignItems={'center'}>
             <Button
               variant={'solid'}
-              colorScheme={'red'}
+              color="white"
+              backgroundColor="blue"
+              _hover={"none"}
               size={'lg'}
               border={'none'}
               borderRadius={'10'}
@@ -212,13 +214,13 @@ export default function Navbar() {
               <a id='a' href="#aboutme">About Me</a>
              </button>
              <button className='btnn'>
-              <a id='a' href="#myskillsmain">My Skills</a>
+              <a id='a' href="#myskillsmain">Skills</a>
              </button>
              <button className='btnn'>
-              <a id='a' href="#myprojects">My Projects</a>
+              <a id='a' href="#myprojects">Projects</a>
              </button>
              <button className='btnn'>
-              <a id='a' href="#mystatisticsmain">My Statistics</a>
+              <a id='a' href="#mystatisticsmain">Statistics</a>
              </button>
              <button className='btnn'>
               <a id='a' href="#contact">Contact</a>

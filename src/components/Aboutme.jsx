@@ -28,12 +28,12 @@ in remote collaboration.
                 <div>
                 <div id='icons'>
                   <div>
-                    <a href="https://www.linkedin.com/in/theja-swaroop-10a1a9197/">
+                    <a href="https://www.linkedin.com/in/theja-swaroop-10a1a9197/" target="_blank" >
                     <AiFillLinkedin size={50}  />
                     </a>
                   </div>
                   <div>
-                    <a href="https://github.com/Swarooptheja">
+                    <a href="https://github.com/Swarooptheja" target='_blank'>
                     <AiFillGithub size={50}/>
                     </a>
                   </div>

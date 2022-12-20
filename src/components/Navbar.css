@@ -9,7 +9,7 @@
 
 
 #downloadbtn{
-    background-color: blue;
+    background-color: #0f2040;
     color: white;
     border-radius:1rem;
 
@@ -28,7 +28,7 @@
 }
 
 .btng{
-    background-color: blue;
+    background-color: #0f2040;
     color: white;
     padding: 10px 20px 10px 20px;
     border: none;
@@ -40,7 +40,7 @@
 }
 .btng:hover{
     cursor: pointer;
-    background-color: red;
+    background-color: blue;
 }
 #a{
     text-decoration: none;

@@ -20,20 +20,20 @@
 } */
 #myprojectsmain>div>img{
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 #myprojectmain>div>div>button{
   background-color: white;
 }
 .myprojectgitbtn{
-    background-color: blue;
+    background-color: #0f2040;
     margin-top: 1rem;
     border-radius: 0.5rem;
     border: none;
     color: white;
 }
 .myprojectgitbtn:hover{
-    background-color: red;
+    background-color: blue;
    color: white;
    cursor: pointer;
 
@@ -41,13 +41,13 @@
 .myprojectnetlifybtn{
     margin-left: 1rem;
     margin-top: 1rem;
-    background-color: blue;
+    background-color: #0f2040;
     border-radius: 0.5rem;
     border:none;
     color: white;
 }
 .myprojectnetlifybtn:hover{
-    background-color: red;
+    background-color: blue;
     color: white;
     cursor: pointer;
 }
@@ -99,15 +99,19 @@
     font-size: 14px;
     font-weight: bold;
     border: none;
-    background-color:rgb(194, 35, 194) ;
-    color: white;
+    /* background-color:rgb(194, 35, 194) ; */
+    /* color: white; */
     margin-left: 0.3rem;
     margin-top: 0.4rem;
+    /* background-color: transparent; */
+    /* background-color: teal; */
+    /* bgGradient="linear(to-r, #0f2027, #203a43, #2c5364)" */
 
 }
 
 #tc>button:hover{
     background-color: red;
+    color: white;
     /* cursor: pointer; */
 }
   
