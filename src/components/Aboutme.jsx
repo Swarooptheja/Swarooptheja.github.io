@@ -39,7 +39,7 @@ in remote collaboration.
                   </div>
                 </div>
                 <div id='tag'>
-                    <h1>Let's Get In Touch  <FaHandPointUp color='yellow' size={40}/></h1> 
+                    <h1>  <FaHandPointUp color='yellow' size={40}/>  Follow Me   <FaHandPointUp color='yellow' size={40}/></h1> 
                 </div>
               </div>
 

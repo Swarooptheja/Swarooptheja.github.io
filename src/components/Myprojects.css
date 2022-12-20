@@ -4,8 +4,8 @@
     margin: auto;
     /* border: 1px solid red; */
     display: grid;
-    gap: 1.9rem;
-    grid-template-columns: repeat(auto-fit, minmax(300px,3fr));
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(360px,3fr));
 }
 #myprojectsmain>div{
     border-radius:1rem;
@@ -113,5 +113,19 @@
     background-color: red;
     color: white;
     /* cursor: pointer; */
+}
+
+#img12{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.slide{
+    width: 100%;
+}
+
+#imgslider{
+    width: 100%;
+    border: 1px solid red;
 }
   

@@ -3,7 +3,8 @@
     width: 100%;
    margin: auto;
   position: fixed;
- background-color:#4A5568 
+ background-color:#4A5568;
+ z-index: 100;
 
 }
 
