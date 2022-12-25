@@ -2,7 +2,9 @@
 #navbarmain{
     width: 100%;
    margin: auto;
-  position: fixed;
+   border: 1px solid #4A5568;
+  position: sticky;
+  top: 0%;
  background-color:#4A5568;
  z-index: 100;
 
