@@ -1,6 +1,10 @@
 #myskillsmain{
     width: 100%;
     height: auto;
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 #myskillsbox{
     width: 70%;

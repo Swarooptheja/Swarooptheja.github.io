@@ -12,7 +12,7 @@ const GitCalender = () => {
           const monthOfDay = date.getMonth();
     
           return (
-            date.getFullYear() === currentYear &&
+            date.getFullYear()=== currentYear &&
             monthOfDay > currentMonth - shownMonths &&
             monthOfDay <= currentMonth
           );
@@ -44,24 +44,11 @@ const GitCalender = () => {
       <Grid templateColumns="repeat(2, 1fr)" w="70%" m="auto" gap={2}>
         <GridItem colSpan={2}>
           <Flex justifyContent={"center"} style={{color:"white"}}>
-            <GitHubCalendar username="Swarooptheja" transformData={calender} />
+          <GitHubCalendar username="swarooptheja"  />
+            {/* <GitHubCalendar username="Swarooptheja" transformData={calender} /> */}
           </Flex>
         </GridItem>
-        {/* <GridItem colSpan={["2", "2", "1", "1"]}>
-          <img
-            height="200px"
-            color="black"
-            src="https://github-readme-stats.vercel.app/api?username=Swarooptheja&show_icons=true&theme=swift"
-            alt="Darsh Star"
-          />
-        </GridItem> */}
-        {/* <GridItem colSpan={["2", "2", "1", "1"]}>
-          <img
-            height="200px"
-            src="https://github-readme-streak-stats.herokuapp.com/?user=Swarooptheja&theme=swift"
-            alt="Darshan Star"
-          />
-        </GridItem> */}
+       
       </Grid>
     </Box>
   );

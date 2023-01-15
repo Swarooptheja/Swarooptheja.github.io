@@ -83,7 +83,7 @@ const images = [
   
     return (
         <div id='myprojects'>
-            <h1 id='headingprojects'>My Projects !</h1>
+            <h1 id='headingprojects'>My Projects</h1>
 
             <div id='myprojectsmain'>
                 <div>
@@ -133,12 +133,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                     <div>
                         <button className='myprojectgitbtn' >
                         <h3>
-                          <a   className='a' href="https://github.com/Shibshankar01/Myntra"> Github Link</a>  
+                          <a   className='a' href="https://github.com/Shibshankar01/Myntra"  target="_blank"> Github Link</a>  
                          </h3>
                         </button>
                         <button className='myprojectnetlifybtn'>
                             <h3>
-                          <a  className='a' href="https://grand-tarsier-842e30.netlify.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://grand-tarsier-842e30.netlify.app/"target="_blank" > Netlify Link</a>  
                          </h3>
                          </button>
                     </div>
@@ -186,12 +186,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                     <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a  className='a' href="https://github.com/suraj9716/common-rhythm-7706"> Github Link</a>  
+                          <a  className='a' href="https://github.com/suraj9716/common-rhythm-7706" target="_blank" > Github Link</a>  
                          </h3>
                         </button>
                         <button className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://ornate-phoenix-387be5.netlify.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://ornate-phoenix-387be5.netlify.app/" target="_blank" > Netlify Link</a>  
                          </h3>
                             </button>
                     </div>
@@ -234,12 +234,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                     <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a  className='a' href="https://github.com/skypassboy/outgoing-mine-4990"> Github Link</a>  
+                          <a  className='a' href="https://github.com/skypassboy/outgoing-mine-4990" target="_blank" > Github Link</a>  
                          </h3>
                         </button>
                         <button className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://friendly-raindrop-3d7f7b.netlify.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://friendly-raindrop-3d7f7b.netlify.app/" target="_blank" > Netlify Link</a>  
                          </h3>
                          </button>
                     </div>
@@ -289,12 +289,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                     <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a  className='a' href="https://github.com/Swarooptheja/agonizing-cable-172/tree/main/my-app"> Github Link</a>  
+                          <a  className='a' href="https://github.com/Swarooptheja/agonizing-cable-172/tree/main/my-app" target="_blank"  > Github Link</a>  
                          </h3>
                         </button>
                         <button className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://glowing-klepon-bdc000.netlify.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://glowing-klepon-bdc000.netlify.app/" target="_blank" > Netlify Link</a>  
                          </h3>
                             </button>
                     </div>
@@ -345,12 +345,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                      <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a  className='a' href="https://github.com/priyankadora20/blessed-toes-567"> Github Link</a>  
+                          <a  className='a' href="https://github.com/priyankadora20/blessed-toes-567"  target="_blank"> Github Link</a>  
                          </h3>
                         </button>
                         <button  className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://kindmeal-clone-website.vercel.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://kindmeal-clone-website.vercel.app/"  target="_blank"> Netlify Link</a>  
                          </h3>
                          </button>
                     </div>
@@ -403,12 +403,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                     <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a className='a' href="https://github.com/darshancoder/solid-scarecrow-3984"> Github Link</a>  
+                          <a className='a' href="https://github.com/darshancoder/solid-scarecrow-3984"  target="_blank"> Github Link</a>  
                          </h3>
                         </button>
                         <button className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://glittering-kleicha-186978.netlify.app/"> Netlify Link</a>  
+                          <a  className='a' href="https://glittering-kleicha-186978.netlify.app/"  target="_blank" > Netlify Link</a>  
                          </h3></button>
                     </div>
                 </div>
@@ -459,12 +459,12 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                      <div>
                         <button className='myprojectgitbtn'>
                         <h3>
-                          <a  className='a' href="https://github.com/Swarooptheja/The-Sun"> Github Link</a>  
+                          <a  className='a' href="https://github.com/Swarooptheja/The-Sun" target="_blank"> Github Link</a>  
                          </h3>
                         </button>
                         <button  className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://my-app-kappa-red.vercel.app//"> Netlify Link</a>  
+                          <a  className='a' href="https://my-app-kappa-red.vercel.app//" target="_blank"> Netlify Link</a>  
                          </h3>
                          </button>
                     </div>

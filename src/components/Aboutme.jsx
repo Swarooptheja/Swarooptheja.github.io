@@ -6,7 +6,7 @@ import {FaHandPointUp} from "react-icons/fa"
 function Aboutme(props) {
     return (
         <div id='aboutme' >
-            <h1 id='headingaboutme'>About Me !</h1>
+            <h1 id='headingaboutme'>About Me</h1>
             <div id='aboutmemain'>
 
               <div>
@@ -29,17 +29,17 @@ in remote collaboration.
                 <div id='icons'>
                   <div>
                     <a href="https://www.linkedin.com/in/theja-swaroop-10a1a9197/" target="_blank" >
-                    <AiFillLinkedin size={50}  />
+                    <AiFillLinkedin color='blue' size={50}  />
                     </a>
                   </div>
                   <div>
                     <a href="https://github.com/Swarooptheja" target='_blank'>
-                    <AiFillGithub size={50}/>
+                    <AiFillGithub color='black' size={50}/>
                     </a>
                   </div>
                 </div>
                 <div id='tag'>
-                    <h1>  <FaHandPointUp color='yellow' size={40}/>  Follow Me   <FaHandPointUp color='yellow' size={40}/></h1> 
+                    <h1>  <FaHandPointUp color='black' size={40}/>  Follow Me   <FaHandPointUp color='black' size={40}/></h1> 
                 </div>
               </div>
 

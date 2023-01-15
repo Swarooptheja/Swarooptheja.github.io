@@ -3,6 +3,9 @@
     gap: 2rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px,2fr));
+    background-color: black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 /* #getintouchmain>div:nth-child(2){
     background-color: white;
