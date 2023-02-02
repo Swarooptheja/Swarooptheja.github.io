@@ -464,7 +464,7 @@ It is one of the most popular online fashion stores. We have cloned the Login/Si
                         </button>
                         <button  className='myprojectnetlifybtn'>
                         <h3>
-                          <a  className='a' href="https://my-app-kappa-red.vercel.app//" target="_blank"> Netlify Link</a>  
+                          <a  className='a' href="https://fashion-seven.vercel.app/" target="_blank"> Netlify Link</a>  
                          </h3>
                          </button>
                     </div>
